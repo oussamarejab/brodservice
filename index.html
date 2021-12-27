@@ -16,8 +16,15 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A digital marketing company,we provide social media services and management, website development, mobile app development, we guide customers to your business, we increase your sales, contact us and never to regret...">
-    <meta name="keyword" content="digital , marketing , branding , content creation , best company , shippest company ,  web development , brodservices , ">
+
+    <meta name="description" content="we provide social media services and management, 
+    we increase your followers, comments and so more, website development, 
+     we guide customers to your business, we increase your sales...">
+
+
+
+    <meta name="keyword" content="digital , marketing , branding , increase followers , instagram followers,
+     best company ,increase facebook followers likes viewer share ,  web development , brodservices ">
     <meta name="author" content="">
     <title>Digital Marketing Agency</title>
 
@@ -30,7 +37,8 @@
     <meta property="og:image" content="" />
     <!-- / facebook meta -->
     <!--  Non-Essential, But Recommended -->
-    <meta property="og:description" content="  Our mission is to make your target audience see their reflection in your Brand.">
+    <meta property="og:description" content="  Our mission is to make your target audience see their reflection in
+     your Brand.">
     <meta property="og:site_name" content="brodservices for digital marketing.">
     <link rel="icon" href="images/Logo/Picture1.png">
     <!-- font awesome -->
@@ -85,12 +93,12 @@
                             <li><a class="scroll" href="#about">About</a></li>
                             <li><a class="scroll" href="#services">Service</a></li>
                             <li><a class="scroll" href="#features">
-                                our skills
-                            </a></li>
+                                    our skills
+                                </a></li>
                             <li><a class="scroll" href="#team">Team</a></li>
                             <li><a class="scroll" href="#contact">Contact</a></li>
                             <li><a class="scroll" href="#location">Location</a></li>
-                            <li><a class="scroll" href="index-AR.html">عربي</a></li>
+                            <!-- <li><a class="scroll" href="index-AR.html">عربي</a></li> -->
 
 
                         </ul>
@@ -110,7 +118,8 @@
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
                                 <h1>We Are Brodservices</h1>
-                                <h2>Your <span> R</span>emote <span> D</span>igital <span> M</span>arketing Department</h2>
+                                <h2>Your <span> R</span>emote <span> D</span>igital <span> M</span>arketing Department
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -141,124 +150,6 @@
         </div>
         <!--/#home-carousel-->
     </section>
-
-    <!-- count-down -->
-    <!-- 
-    <div class="containercount" style="width: 70%; background-color: #923f6261;
-    padding-top: 20px;
-    margin-top: 20px;     border-radius: 45px;">
-        <h3 id="" style="color: black;">
-            <span> Now</span> for a <span> limited</span> time get an e-marketing package at <span> 300DT</span> per month instead of 600DT
-        </h3>
-        <div id="countdown">
-            <ul>
-                <li><span id="days"></span>days</li>
-                <li><span id="hours"></span>Hours</li>
-                <li><span id="minutes" style="color: red;"></span>Minutes</li>
-                <li><span id="seconds" style="color: red;"></span>Seconds</li>
-            </ul>
-        </div>
-        <div id="content" class="emoji">
-            <span>🥳</span>
-            <span>🎉</span>
-            <span>🎂</span>
-        </div>
-    </div>
-    <style>
-        .containercount {
-            color: #333;
-            margin: 0 auto;
-            text-align: center;
-        }
-        
-        h1 {
-            font-weight: normal;
-            letter-spacing: .125rem;
-            text-transform: uppercase;
-        }
-        
-        #countdown li {
-            display: inline-block;
-            font-size: 1.5em;
-            list-style-type: none;
-            padding: 1em;
-            text-transform: uppercase;
-        }
-        
-        li span {
-            display: block;
-            font-size: 4.5rem;
-        }
-        
-        .emoji {
-            display: none;
-            padding: 1rem;
-        }
-        
-        .emoji span {
-            font-size: 4rem;
-            padding: 0 .5rem;
-        }
-        
-        @media all and (max-width: 768px) {
-            h1 {
-                font-size: calc(1.5rem * var(--smaller));
-            }
-            li {
-                font-size: calc(1.125rem * var(--smaller));
-            }
-            li span {
-                font-size: calc(3.375rem * var(--smaller));
-            }
-        }
-    </style>
-    <script>
-        (function() {
-            const second = 1000,
-                minute = second * 60,
-                hour = minute * 60,
-                day = hour * 24;
-
-            //I'm adding this section so I don't have to keep updating this pen every year :-)
-            //remove this if you don't need it
-            let today = new Date(),
-                dd = String(today.getDate()).padStart(2, "0"),
-                mm = String(today.getMonth() + 1).padStart(2, "0"),
-                yyyy = today.getFullYear(),
-                nextYear = yyyy + 1,
-                dayMonth = "01/2/",
-                birthday = dayMonth + yyyy;
-
-            today = mm + "/" + dd + "/" + yyyy;
-            if (today > birthday) {
-                birthday = dayMonth + nextYear;
-            }
-            //end
-
-            const countDown = new Date(birthday).getTime(),
-                x = setInterval(function() {
-
-                    const now = new Date().getTime(),
-                        distance = countDown - now;
-
-                    document.getElementById("days").innerText = Math.floor(distance / (day)),
-                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-                    //do something later when date is reached
-                    if (distance < 0) {
-                        document.getElementById("headline").innerText = "It's my birthday!";
-                        document.getElementById("countdown").style.display = "none";
-                        document.getElementById("content").style.display = "block";
-                        clearInterval(x);
-                    }
-                    //seconds
-                }, 0)
-        }());
-    </script> -->
-    <!-- / count-down -->
-
 
     <!--About-Section-Start-->
     <section id="about">
@@ -310,7 +201,7 @@
                         <li class="list-group-item">Photo/Post Likes <i class="fas fa-fire"></i></li>
                         <li class="list-group-item">Comments <i class="fas fa-fire"></i></li>
                         <li class="list-group-item">Video Views</li>
-                        <a href="https://wa.me/97433673759?text=Please I want To increase my followers" target="_blank">
+                        <a href="social-media-services.html" target="_blank">
                             <li class="list-group-item contact-us">Order now</li>
                         </a>
 
@@ -323,7 +214,7 @@
                         <li class="list-group-item">Likes</li>
                         <li class="list-group-item">Views</li>
                         <li class="list-group-item">Comments <i class="fas fa-fire"></i></li>
-                        <a href="https://wa.me/97433673759?text=Please I want To increase my followers" target="_blank">
+                        <a href="social-media-services.html" target="_blank">
                             <li class="list-group-item contact-us">Order now</li>
                         </a>
 
@@ -336,7 +227,7 @@
                         <li class="list-group-item">Subscribers <i class="fas fa-fire"></i></li>
                         <li class="list-group-item">Likes</li>
                         <li class="list-group-item">Shares</li>
-                        <a href="https://wa.me/97433673759?text=Please I want To increase my followers" target="_blank">
+                        <a href="social-media-services.html" target="_blank">
                             <li class="list-group-item contact-us">Order now</li>
                         </a>
 
@@ -349,7 +240,9 @@
                         <li class="list-group-item">add</li>
                         <li class="list-group-item">comments <i class="fas fa-fire"></i></li>
                         <li class="list-group-item">engagement</li>
-                        <a href="https://wa.me/97433673759?text=Please I want To increase my followers" target="_blank">
+                        <a href="social-media-services.html" target="_blank">
+
+                            <!-- <a href="https://wa.me/97433673759?text=Please I want To increase my followers" target="_blank"> -->
                             <li class="list-group-item contact-us">Order now</li>
                         </a>
 
@@ -362,7 +255,7 @@
                         <li class="list-group-item">Likes</li>
                         <li class="list-group-item">Comments</li>
                         <li class="list-group-item">engagement <i class="fas fa-fire"></i></li>
-                        <a href="https://wa.me/97433673759?text=Please I want To increase my followers" target="_blank">
+                        <a href="social-media-services.html" target="_blank">
                             <li class="list-group-item contact-us">Order now</li>
                         </a>
 
@@ -375,7 +268,7 @@
                         <li class="list-group-item">Favorites</li>
                         <li class="list-group-item">Retweets</li>
                         <li class="list-group-item">and more</li>
-                        <a href="https://wa.me/97433673759?text=Please I want To increase my followers" target="_blank">
+                        <a href="social-media-services.html" target="_blank">
                             <li class="list-group-item contact-us">Order now</li>
                         </a>
 
@@ -388,7 +281,7 @@
                         <li class="list-group-item">Traffic from iPhone</li>
                         <li class="list-group-item">Real GEO Targeted Traffic (Targeted by country) </li>
                         <li class="list-group-item">Customize SEO Building Package + Extras</li>
-                        <a href="https://wa.me/97433673759?text=Please I want To increase my website traffic" target="_blank">
+                        <a href="social-media-services.html" target="_blank">
                             <li class="list-group-item contact-us">Order now</li>
                         </a>
                     </ul>
@@ -407,8 +300,8 @@
             <div class="box box-down cyan wow bounceInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <h3> <i class="fas fa-users"></i> Will I get the service from real users?</h3>
                 <p><span>
-                    Absolutely
-                </span> </p>
+                        Absolutely
+                    </span> </p>
             </div>
 
             <div class="box red wow slideInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -558,13 +451,7 @@
 
     </section>
 
-
-
-
-
     <!-- ////social media services -->
-
-
 
     <br><br><br>
 
@@ -770,7 +657,8 @@
                         <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was
                             born and I will give you a complete account of the system, and expound </p>
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/seeoo.png" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/seeoo.png" class="img-responsive" alt="">
+                    </div>
                 </div>
 
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-3">
@@ -787,7 +675,8 @@
                             born and I will give you a complete account of the system, and expound </p>
                     </div>
                     <a href="web-dvp.html" target="_blank">
-                        <div class="col-md-6 tab-img"><img src="images/Features/web.png" class="img-responsive" alt=""></div>
+                        <div class="col-md-6 tab-img"><img src="images/Features/web.png" class="img-responsive" alt="">
+                        </div>
                 </div>
 
                 </a>
@@ -806,7 +695,8 @@
                             born and I will give you a complete account of the system, and expound </p>
                     </div>
                     <a href="cv.html" target="_blank">
-                        <div class="col-md-6 tab-img"><img src="images/Features/aa.png" class="img-responsive" alt=""></div>
+                        <div class="col-md-6 tab-img"><img src="images/Features/aa.png" class="img-responsive" alt="">
+                        </div>
                     </a>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-5">
@@ -851,12 +741,8 @@
                                                 class="fa fa-facebook-f"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i
                                                 class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
-                                                class="fa fa-pinterest-p"></i></a></li>
                                     <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i
                                                 class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Google-plus"><i
-                                                class="fa fa-google-plus"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -869,16 +755,12 @@
                                 <h5>Oussama ben rejab</h5>
                                 <p>Full stuck developer</p>
                                 <ul class="team-social-icon">
-                                    <li><a href="https://www.linkedin.com/in/oussama-ben-rejeb-b7a846211/" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
                                                 class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/oussama-ben-rejeb-b7a846211/" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i
                                                 class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/oussama-ben-rejeb-b7a846211/" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
-                                                class="fa fa-pinterest-p"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/oussama-ben-rejeb-b7a846211/" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i
                                                 class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/oussama-ben-rejeb-b7a846211/" target="_blank" data-toggle="tooltip" data-placement="top" title="Google-plus"><i
-                                                class="fa fa-google-plus"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -892,16 +774,12 @@
                                 <p>Leadership Digital Marketing
                                 </p>
                                 <ul class="team-social-icon">
-                                    <li><a href="https://www.linkedin.com/in/belhassen-wadah-a331b914a/" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
                                                 class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/belhassen-wadah-a331b914a/" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i
                                                 class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/belhassen-wadah-a331b914a/" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
-                                                class="fa fa-pinterest-p"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/belhassen-wadah-a331b914a/" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i
                                                 class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/belhassen-wadah-a331b914a/" target="_blank" data-toggle="tooltip" data-placement="top" title="Google-plus"><i
-                                                class="fa fa-google-plus"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -916,16 +794,12 @@
                                     Digital Marketing supervisor
                                 </p>
                                 <ul class="team-social-icon">
-                                    <li><a href="https://www.linkedin.com/in/makokha-masika-09492272/" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
                                                 class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/makokha-masika-09492272/" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i
                                                 class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/makokha-masika-09492272/" target="_blank" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
-                                                class="fa fa-pinterest-p"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/makokha-masika-09492272/" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i
                                                 class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/makokha-masika-09492272/" target="_blank" data-toggle="tooltip" data-placement="top" title="Google-plus"><i
-                                                class="fa fa-google-plus"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -947,7 +821,7 @@
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <div class="fun-fact text-center">
-                        <h3><i class="fa fa-briefcase fa-6"></i> <span class="timer">73987</span></h3>
+                        <h3><i class="fa fa-briefcase fa-6"></i> <span class="timer">737</span></h3>
                         <h6>Completed Projects</h6>
                     </div>
                 </div>
@@ -990,7 +864,7 @@
                     <a href="#"><img src="images/clients/6.png" class="img-responsive" alt="" /></a>
                 </div>
                 <div class="item client-logo">
-                    <a href="#"><img src="images/clients/7.png" class="img-responsive" alt="" /></a>
+                    <a href="http://expotale.com/" target="_blank"><img src="images/clients/expotale.com.png" class="img-responsive" alt="" /></a>
                 </div>
             </div>
         </div>
@@ -1007,78 +881,7 @@
         <hr style="border:3px solid #f1f1f1">
     </section>
 
-    <section class="form">
-        <h2 style="text-align: center;">WE APPRECIATE YOUR <span>REVIEW!</span> </h2>
-        <h6 id="fh6">Your review will help us to improve our web hosting quality products, and customer services.</h6>
 
-
-        <form id="feedback" action="">
-            <div class="pinfo">Your personal info</div>
-
-            <div class="form-group">
-                <div class="col-md-4 inputGroupContainer">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                        <input name="name" placeholder="John Doe" class="form-control" type="text">
-                    </div>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-md-4 inputGroupContainer">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                        <input name="email" type="email" class="form-control" placeholder="john.doe@yahoo.com">
-                    </div>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-md-4 inputGroupContainer">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-globe"></i></span>
-                        <input name="URL" placeholder="https://google.com" class="form-control" type="url">
-                    </div>
-                </div>
-            </div>
-
-            <div class="pinfo">Rate our overall services.</div>
-
-
-            <div class="form-group">
-                <div class="col-md-4 inputGroupContainer">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-heart"></i></span>
-                        <select class="form-control" id="rate">
-              <option value="1star">1</option>
-              <option value="2stars">2</option>
-              <option value="3stars">3</option>
-              <option value="4stars">4</option>
-              <option value="5stars">5</option>
-            </select>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pinfo">Write your feedback.</div>
-
-
-            <div class="form-group">
-                <div class="col-md-4 inputGroupContainer">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
-                        <textarea class="form-control" id="review" rows="3"></textarea>
-
-                    </div>
-                </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-
-        </form>
-
-    </section>
     <!--Contact-Section-Start-->
     <section id="contact">
         <div class="container">
@@ -1106,14 +909,79 @@
                         </li>
                         <li><i class="fa fa-phone"></i>
                             <h6><strong>Phone:</strong>
-                                <a href="tel:0021652774974" class="" title="call me"> 00 216 52 77 49 74</a></h6>
+                                <a href="tel:0021652774974" class="" title="call me"> 00 216 52 77 49 74</a>
+                            </h6>
                         </li>
                         <li><i class="fa fa-wechat"></i>
                             <h6><strong>Website:</strong> <a href="#">www.brodservices.com</a> </h6>
                         </li>
                     </ul>
                 </div>
+
+
+
+
+
+
+
+
+                <!-- form working and related with benrejebtst@gmail.com -->
+
                 <div class="col-md-6 col-sm-6">
+                    <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input style=" background-color: transparent; border: 2px solid #923f62;" type="text" id="fromname" class="form-control" name="name" placeholder="from name" required>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input style=" background-color: transparent; border: 2px solid #923f62;" type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input style=" background-color: transparent; border: 2px solid #923f62;" type="text" name="subject" id="toname" class="form-control" placeholder="Subject" required="required">
+                    </div>
+                    <div class="form-group">
+                        <textarea style=" background-color: transparent; border: 2px solid #923f62;" name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                    </div>
+                    <button style=" background-color: transparent; border: 2px solid #923f62;" class="btn-send col-md-12 col-sm-12 col-xs-12" onclick="sendMail()">Send Now</button>
+
+                    <!-- mail-js -->
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+                    <script type="text/javascript">
+                        (function() {
+                            emailjs.init("user_fAekb5mXQ6ssRRfNeQvAX");
+                        })();
+                    </script>
+                    <script>
+                        function sendMail(params) {
+                            var tempparmas = {
+                                from_name: document.getElementById("fromname").value,
+                                to_name: document.getElementById("toname").value,
+                                message: document.getElementById("message").value
+
+                            };
+                            emailjs.send("service_1ltu51j", "template_q70z7hc", tempparmas)
+                                .then(function(res) {
+                                    console.log("success", res.status);
+                                })
+                        }
+                    </script>
+                    <!-- mail-js -->
+                </div>
+
+                <!-- form working and related with benrejebtst@gmail.com -->
+
+
+                <!-- <div class="col-md-6 col-sm-6">
+
+
+
+
                     <form id="main-contact-form" name="contact-form" method="post" action="#">
                         <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="col-sm-6">
@@ -1133,31 +1001,28 @@
                         <div class="form-group">
                             <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
                         </div>
-                        <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a>
+                        <a style="background-color: white; color: rgb(155, 155, 213);" href="https://formsubmit.co/el/tifese" target="_blank">Send </a>
                     </form>
                     <br><br>
 
-                </div>
+
+
+
+
+                    <div class="text-center">
+                    </div>
+                    </form>
+                </div> -->
+
+
             </div>
+
         </div>
     </section>
-
-
+    <!-- End Contact Section -->
 
     <footer id="footer">
-
-
-
-
         <!-- social media oussama
-
-
-
-
-
-
-            
-
     <!-- section social media link -->
         <section>
             <div class="stickyicon-list">
@@ -1191,19 +1056,12 @@
             </div>
 
         </section>
-
-
-
-
-
-
-
     </footer>
 
 
     <section id="location" style="width: 80%; align-items: center; margin-top: 20px;  ">
         <h2 style="text-align: center; align-items: center;">OUR LOCATION</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10943.524710454387!2d10.3573746!3d36.7199751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1085ab68776474bb!2sBrodservices!5e1!3m2!1sen!2sqa!4v1638889763194!5m2!1sen!2sqa" width="100%" height="600"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10943.524710454387!2d10.3573746!3d36.7199751!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1085ab68776474bb!2sBrodservices!5e1!3m2!1sen!2sqa!4v1638889763194!5m2!1sen!2sqa" width="80%" height="400"
             style="border:0; border-radius: 40px;  " allowfullscreen="  " loading="lazy "></iframe>
 
 
@@ -1238,7 +1096,28 @@
 
     <!--  /no inspect -->
 
+    <!-- mail-js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_fAekb5mXQ6ssRRfNeQvAX");
+        })();
+    </script>
+    <script>
+        function sendMail(params) {
+            var tempparmas = {
+                from_name: document.getElementById("fromname").value,
+                to_name: document.getElementById("toname").value,
+                message: document.getElementById("message").value
 
+            };
+            emailjs.send("service_1ltu51j", "template_q70z7hc", tempparmas)
+                .then(function(res) {
+                    console.log("success", res.status);
+                })
+        }
+    </script>
+    <!-- mail-js -->
 
 
     <!--Jquery-->
